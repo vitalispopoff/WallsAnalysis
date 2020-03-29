@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html
         lang="en"
-        xmlns="http://www.w3.org/1999/xhtml">
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:th="http://www.w3.org/1999/xhtml">
         <!--xmlns:th="http://www.thymeleaf.org">-->
 
     <head>
@@ -10,7 +11,6 @@
 
     <body>
         <h1>Welcome to...</h1>
-        <!--<img th:src="@{/images/TacoCloud.png}"  alt="logo"/>-->     <!-- doesn't work -->
-        <img src="../static/images/TacoCloud.png" height="241" width="849" alt="logo"/>
+        <img th:src="@{/images/TacoCloud.png}"  alt="logo"/>
     </body>
 </html>
