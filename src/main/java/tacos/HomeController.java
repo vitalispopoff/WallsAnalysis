@@ -8,7 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        //noinspection SpringMVCViewInspection
-        return "home";                              // * warns: "cannot resolve MVC view" - suppressed
+        return "home";
     }
 }
