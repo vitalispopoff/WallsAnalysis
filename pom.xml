@@ -5,10 +5,12 @@
 
     <groupId>yup</groupId>
     <artifactId>taco-cloud</artifactId>
-    <version>0.0.1 - 2.1.1</version>
+    <version>0.0.2 - 2.1.2-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <name>taco-cloud</name>
     <description>Taco cloud whatever</description>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -28,18 +30,21 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <!--<version>2.0.4.RELEASE</version>-->
         </dependency>
 
         <!-- 2 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <!--<version>2.0.4.RELEASE</version>-->
         </dependency>
 
         <!-- 3 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
+            <!--<version>2.0.4.RELEASE</version>-->
             <scope>runtime</scope>
             <!--<optional>true</optional>-->
         </dependency>
@@ -48,6 +53,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <!--<version>2.0.4.RELEASE</version>-->
             <scope>test</scope>
 <!--            <exclusions>
                 <exclusion>
@@ -78,6 +84,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--<version>2.0.4.RELEASE</version>-->
             </plugin>
         </plugins>
     </build>
